@@ -14,4 +14,6 @@ print(x + y)
 print(1 % 2)
 print(2 % 2)
 
+name = str(input("Enter your name: "))
+age = int(input("Enter your age: "))
 
