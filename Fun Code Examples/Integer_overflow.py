@@ -48,6 +48,6 @@ exceeding this size can result in overflow.
 
 To demonstrate an integer overflow scenario, 
 we can simulate the behavior of a fixed-width integer (like a 32-bit integer) 
-in Python. Here’s a sample code that illustrates how integer overflow works with 
+in Python. Heres a sample code that illustrates how integer overflow works with 
 32-bit integers
 """
