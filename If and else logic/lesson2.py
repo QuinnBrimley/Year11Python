@@ -61,6 +61,44 @@ else:
     print("You are younger than 10")
 
 
+#More examples of if and else logic
+
+x = 10
+
+if x > 15:
+    print("x is greater than 15")
+elif x > 10:
+    print("x is greater than 10 but less than or equal to 15")
+elif x > 5:
+    print("x is greater than 5 but less than or equal to 10")
+else:
+    print("x is 5 or less")
+
+
+#Nesting if statements
+
+x = 10
+y = 20
+
+if x > 5:
+    if y > 15:
+        print("x is greater than 5 and y is greater than 15")
+    else:
+        print("x is greater than 5 but y is 15 or less")
+else:
+    print("x is 5 or less")
+
+
+#Using logic operators
+x = 10
+y = 5
+
+if x > 5 and y < 10:
+    print("x is greater than 5 and y is less than 10")
+else:
+    print("Either x is not greater than 5 or y is not less than 10")
+
+
 """
 Short circuiting is when a if condition doesnt full complete
 its check
@@ -79,3 +117,7 @@ b = False
 # This won't print anything because `a` is True, so `b` is not evaluated
 if a or print("This won't be printed"):
     print("Inside if block")
+
+
+
+
