@@ -29,6 +29,15 @@ else:
 
 """
 We can add a else if to check more conditons like this
+
+if condition:
+    do something
+elif condition:
+    do something else:
+continue as many elif you need....
+else:
+    do this
+
 """
 
 if age >= 18:
@@ -37,3 +46,6 @@ elif age <= 17 and age >=10:
     print("You are between 17 and 10")
 else:
     print("You are younger than 10")
+
+#Note that we can include as many elif we like, we just 
+#Need to add it on to our if and else structure.
