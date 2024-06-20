@@ -55,6 +55,7 @@ else:
 #Does changing and to or do anything?
 if age >= 18:
     print("You are 18 years old or older")
+    print("Hello")
 elif age <= 17 or age >=10:
     print("You are between 17 and 10")
 else:
@@ -119,5 +120,8 @@ if a or print("This won't be printed"):
     print("Inside if block")
 
 
+# Import math Library
+import math
 
-
+# Return the square root of different numbers
+print (math.sqrt(9))
