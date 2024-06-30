@@ -33,6 +33,3 @@ while is_correct == False:
     else:
         print("We aint balling")
     user_guess = int(input("Enter a number: "))
-    
-
-    
